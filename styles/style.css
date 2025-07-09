@@ -1,7 +1,7 @@
+body {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
+}
 
-/* body {
-    	background: linear-gradient(#FF0000, #FF0000);
-} */
 .merriweather-normal {
     font-family: "Merriweather", serif;
     font-optical-sizing: auto;
@@ -46,7 +46,7 @@
 
 /* header-container-2-style */
 .cointainer-2-heading {
-  
+
     margin: 50px auto 50px auto;
     display: flex;
     flex-direction: column;
@@ -64,20 +64,24 @@
 }
 
 
- .inter-normal p, h3, .btn {
+.inter-normal p,
+h3,
+.btn {
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
- }
- .cointainer-2-heading p {
+}
+
+.cointainer-2-heading p {
     color: #FF0000;
     font-weight: 500;
     font-size: 24px;
     margin-bottom: 16px;
 
 }
-div img  {
-      height: 550px;
+
+div img {
+    height: 550px;
     width: 800px;
     margin: 40px auto 60px auto;
 }
@@ -94,12 +98,13 @@ div img  {
     margin: 0px auto 30px auto;
     border-radius: 10px;
 }
+
 .banner-content {
     display: flex;
     justify-content: space-between;
     /* justify-content: center;
     flex-direction: column; */
-    
+
 }
 
 .banner-text h1 {
@@ -107,10 +112,12 @@ div img  {
     font-size: 64px;
     font-weight: 900;
 }
+
 .inline-block {
-  display: inline-block;
-  text-align: left;
+    display: inline-block;
+    text-align: left;
 }
+
 .banner-text {
     color: #FFFFFF;
     font-size: 18px;
@@ -118,15 +125,17 @@ div img  {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+    text-align: left;
 }
 
-  .banner-img {
+.banner-img {
     height: 450px;
     width: 300px;
     margin: 68px 130px 68px 0;
     /* margin: 10px 50px 0 0; */
 }
+
 div button {
     height: 40px;
     width: 100px;
@@ -135,4 +144,125 @@ div button {
     background-color: black;
     border: none;
 
+}
+
+
+/* place-banner-container-style */
+
+.place-banner-container {
+    height: 450px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px  auto 40px auto;
+
+    background-color: rgba(226, 211, 192, 0.203);
+    border-radius: 10px;
+
+}
+
+.place-banner-container span {
+    color: #FF0000;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.place-banner-container h3 {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.place-btn {
+    background-color: #FF0000;
+    /* padding: 32px 16px; */
+    font-size: 20px;
+    font-weight: bold;
+    height: 56px;
+    width: 165px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 10px;
+
+}
+
+
+
+/* banner-3-style */
+
+
+.banner-3-container {
+     background-color: rgba(226, 211, 192, 0.203);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 600px;
+    width: 1200px;
+    margin: 100px auto 10px auto;
+    border-radius: 10px;
+    
+
+}
+
+/* .banner-3-img {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    border: 3px solid red;
+    
+ } */
+
+.banner-3-img img {
+    height: 250px;
+    width: 250px;
+    display: block;
+    border-radius: 50%;
+
+}
+
+
+.banner-3-2nd-content img {
+    width: 140px;
+    height: 140px;
+}
+
+.banner-3-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+}
+
+.banner-3-content h3 {
+    color: #FF0000;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+
+.banner-3-content h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.banner-3-content p {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    
+}
+
+.banner-3-2nd-content h1 {
+    color: #FF0000;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+}
+
+.banner-3-2nd-content p {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    ;
 }
