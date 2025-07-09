@@ -1,13 +1,16 @@
 
-.merriweather-normal{
-  font-family: "Merriweather", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+/* body {
+    	background: linear-gradient(#FF0000, #FF0000);
+} */
+.merriweather-normal {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
-.header-container{
+.header-container {
     background-image: url(/images/Banner\ Image.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -22,19 +25,114 @@
 }
 
 .header-content {
- display: flex;
-  flex-direction: column;     
-  align-items: center;        
-  text-align: center;
-  color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
 }
+
 .header-content h1 {
     font-size: 72px;
-    font-weight:900;
-     margin-top: 10px;
+    font-weight: 900;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
+
 .header-content p {
     font-size: 32px;
-      margin-bottom: 0;
+    margin-bottom: 0;
+}
+
+/* header-container-2-style */
+.cointainer-2-heading {
+  
+    margin: 50px auto 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cointainer-2-heading h1 {
+    color: #FF0000;
+    font-size: 88px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+
+ .inter-normal p, h3, .btn {
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+ }
+ .cointainer-2-heading p {
+    color: #FF0000;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 16px;
+
+}
+div img  {
+      height: 550px;
+    width: 800px;
+    margin: 40px auto 60px auto;
+}
+
+/* main section start style */
+.banner-container {
+    background-image: url(/images/Vectorrr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 600px;
+    width: 1200px;
+    margin: 0px auto 30px auto;
+    border-radius: 10px;
+}
+.banner-content {
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center;
+    flex-direction: column; */
+    
+}
+
+.banner-text h1 {
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: 900;
+}
+.inline-block {
+  display: inline-block;
+  text-align: left;
+}
+.banner-text {
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+  .banner-img {
+    height: 450px;
+    width: 300px;
+    margin: 68px 130px 68px 0;
+    /* margin: 10px 50px 0 0; */
+}
+div button {
+    height: 40px;
+    width: 100px;
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: black;
+    border: none;
+
 }
